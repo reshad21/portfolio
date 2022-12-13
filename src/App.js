@@ -5,13 +5,11 @@ import router from './Routes/Routes/Router';
 
 function App() {
   return (
-    <>
+    <div className='max-w-[1200px] mx-auto'>
       <ParticleBackground />
-      <div className=''>
-        <RouterProvider router={router}></RouterProvider>
-        <Toaster></Toaster>
-      </div>
-    </>
+      <RouterProvider router={router}></RouterProvider>
+      <Toaster></Toaster>
+    </div>
   );
 }
 

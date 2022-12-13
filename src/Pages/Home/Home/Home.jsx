@@ -5,13 +5,9 @@ import Banner from '../BannerSection/Banner';
 import Gallery from './../Gallery/Gallery';
 const Home = () => {
     return (
-        <div className='max-w-[1200px] mx-auto'>
-            <Fade bottom>
-                <Banner></Banner>
-            </Fade>
-            <Fade bottom>
-                <Gallery></Gallery>
-            </Fade>
+        <div className='px-4'>
+            <Banner></Banner>
+            <Gallery></Gallery>
             <Fade bottom>
                 <AboutMe></AboutMe>
             </Fade>

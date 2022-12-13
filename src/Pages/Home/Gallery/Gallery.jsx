@@ -7,8 +7,8 @@ const Gallery = () => {
         <div>
             <h1 className='text-3xl text-center font-bold text-slate-200'>My Recent Working <span className='text-3xl font-bold text-orange-500'>Projects</span></h1>
 
-            <div className="my-6 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-                <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="my-6 grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+                <div className="card card-compact  bg-base-100 shadow-xl">
                     <figure><img src={ByeCell} alt="Shoes" className='h-[250px] object-cover w-full' /></figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-bold">Laptop Buy Sell</h2>
@@ -38,7 +38,7 @@ const Gallery = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                <div className="card card-compact  bg-base-100 shadow-xl">
                     <figure><img src={WildPhotography} alt="Shoes" className='h-[250px] object-cover w-full' /></figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-bold">Wild Life Photography</h2>
@@ -66,7 +66,7 @@ const Gallery = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                <div className="card card-compact  bg-base-100 shadow-xl">
                     <figure><img src={OnlineLearing} alt="Shoes" className='h-[250px] object-cover w-full' /></figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-bold">Online Education</h2>
