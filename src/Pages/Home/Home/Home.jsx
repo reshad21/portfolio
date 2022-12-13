@@ -5,7 +5,7 @@ import Banner from '../BannerSection/Banner';
 import Gallery from './../Gallery/Gallery';
 const Home = () => {
     return (
-        <div className='px-4'>
+        <div className='max-w-[1200px] mx-auto px-4'>
             <Banner></Banner>
             <Gallery></Gallery>
             <Fade bottom>

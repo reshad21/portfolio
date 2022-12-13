@@ -5,7 +5,7 @@ import router from './Routes/Routes/Router';
 
 function App() {
   return (
-    <div className='max-w-[1200px] mx-auto'>
+    <div>
       <ParticleBackground />
       <RouterProvider router={router}></RouterProvider>
       <Toaster></Toaster>
