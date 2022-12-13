@@ -14,7 +14,9 @@ const Banner = () => {
             <div className="flex items-center align-middle h-[500px]">
                 {/* <ParticleBackground /> */}
                 <div className="banner-items">
-                    <h1 className='text-4xl font-semibold'>I love to create <br /> beautiful and efficient  websites</h1>
+                    <h1 className='text-2xl font-semibold'>Rashed Uzzaman Reshad</h1>
+                    <p>FrontEnd Web Developer</p>
+                    <h1 className='text-xl font-semibold'>Love to create beautiful and efficient  websites</h1>
                     <div className="mt-4">
                         <label htmlFor="my-modal-4" className='btn btn-outline btn-primary mr-3'>Discover Me</label>
                         <button className='btn btn-secondary'>Download Resume</button>

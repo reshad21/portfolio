@@ -31,7 +31,7 @@ const Navber = () => {
 
     return (
         <div>
-            <div className="navbar justify-between ">
+            <div className="navbar justify-between lg:px-28 mt-5">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@ const Navber = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case text-xl">Reshad</Link>
+                    <Link className="btn btn-ghost normal-case text-2xl font-semibold">RESHAD</Link>
                 </div>
                 <div className=" navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
