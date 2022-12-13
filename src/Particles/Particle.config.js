@@ -1,6 +1,7 @@
 
 
-const ParticleConfig = {
+const ParticleConfig =
+{
     autoPlay: true,
     background: {
         color: {
