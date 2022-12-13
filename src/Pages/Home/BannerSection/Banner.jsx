@@ -1,8 +1,9 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 import homebg from '../../../assets/7095114_preview.png';
 import ContactModal from '../ContactModal/ContactModal';
-
 const Banner = () => {
+
     return (
         <div style={{
             background: `url(${homebg})`,
@@ -14,11 +15,23 @@ const Banner = () => {
             <div className="flex items-center align-middle h-[500px]">
                 {/* <ParticleBackground /> */}
                 <div className="banner-items">
-                    <h1 className='text-2xl font-semibold'>Rashed Uzzaman Reshad</h1>
-                    <p>FrontEnd Web Developer</p>
-                    <h1 className='text-xl font-semibold'>Love to create beautiful and efficient  websites</h1>
+                    <h1 className='text-2xl font-semibold text-slate-200'>Rashed Uzzaman Reshad</h1>
+                    <p className='text-normal text-slate-100'>Frontend Web Developer</p>
+                    <h1 className='text-xl font-semibold text-orange-500'>
+                        <Typewriter
+                            options={{
+                                strings: ['Love to create beautiful and efficient  websites'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
+                    </h1>
+
+
+
+
                     <div className="mt-4">
-                        <label htmlFor="my-modal-4" className='btn btn-outline btn-primary mr-3'>Discover Me</label>
+                        <label htmlFor="my-modal-4" className='btn btn-outline mr-3 border-orange-500 font-bold text-orange-500'>Contact Me</label>
                         <button className='btn btn-secondary'>Download Resume</button>
 
                         <ContactModal></ContactModal>

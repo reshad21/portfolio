@@ -5,12 +5,12 @@ const Navber = () => {
     const menuItems = <>
         <li>
             <Link className='p-0 mr-3 bg-inherit' to='/'>
-                <button className='btn btn-outline btn-secondary'>Home</button>
+                <button className='btn btn-outline border-orange-500 font-bold text-orange-500'>Home</button>
             </Link>
         </li>
         <li tabIndex={0}>
             <a className="p-0 mr-3 justify-between bg-inherit" href='#about'>
-                <button className='btn btn-outline btn-secondary'>About</button>
+                <button className='btn btn-outline border-orange-500 font-bold text-orange-500'>About</button>
             </a>
             {/* <ul className="p-2">
                 <li><Link>About</Link></li>
@@ -19,12 +19,12 @@ const Navber = () => {
         </li>
         <li>
             <Link className='p-0 mr-3 bg-inherit'>
-                <button className='btn btn-outline btn-secondary'>Contact</button>
+                <button className='btn btn-outline border-orange-500 font-bold text-orange-500'>Contact</button>
             </Link>
         </li>
         <li>
             <Link className='p-0 m-0 bg-inherit' to='/blog'>
-                <button className='btn btn-outline btn-secondary'>Blog</button>
+                <button className='btn btn-outline border-orange-500 font-bold text-orange-500'>Blog</button>
             </Link>
         </li>
     </>
@@ -41,7 +41,7 @@ const Navber = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case text-2xl font-semibold">RESHAD</Link>
+                    <Link className="btn btn-ghost normal-case text-2xl font-semibold text-slate-300">RESHAD</Link>
                 </div>
                 <div className=" navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">

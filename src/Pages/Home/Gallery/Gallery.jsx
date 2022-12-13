@@ -5,7 +5,7 @@ import WildPhotography from '../../../assets/wild-photographer.png';
 const Gallery = () => {
     return (
         <div>
-            <h1 className='text-3xl text-center font-bold'>My Recent Working <span className='text-3xl font-bold text-orange-500'>Projects</span></h1>
+            <h1 className='text-3xl text-center font-bold text-slate-200'>My Recent Working <span className='text-3xl font-bold text-orange-500'>Projects</span></h1>
 
             <div className="my-6 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                 <div className="card card-compact w-96 bg-base-100 shadow-xl">
