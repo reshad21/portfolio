@@ -27,12 +27,10 @@ const Banner = () => {
                         />
                     </h1>
 
-
-
-
                     <div className="mt-4">
                         <label htmlFor="my-modal-4" className='btn btn-outline mr-3 border-orange-500 font-bold text-orange-500'>Contact Me</label>
-                        <button className='btn btn-secondary'>Download Resume</button>
+
+                        <a href="https://drive.google.com/file/d/14xxcfqPLbdsj15H1YB3IqtkUQWTFWu1y/view?usp=sharing"><button className='btn btn-secondary'>Download Resume</button></a>
 
                         <ContactModal></ContactModal>
                     </div>

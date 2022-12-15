@@ -18,11 +18,6 @@ const Navber = () => {
             </ul> */}
         </li>
         <li>
-            <Link className='p-0 mr-3 bg-inherit'>
-                <button className='btn btn-outline border-orange-500 font-bold text-orange-500'>Contact</button>
-            </Link>
-        </li>
-        <li>
             <Link className='p-0 m-0 bg-inherit' to='/blog'>
                 <button className='btn btn-outline border-orange-500 font-bold text-orange-500'>Blog</button>
             </Link>
