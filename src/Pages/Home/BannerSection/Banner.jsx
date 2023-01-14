@@ -32,6 +32,7 @@ const Banner = () => {
 
                         <a href="https://drive.google.com/file/d/14xxcfqPLbdsj15H1YB3IqtkUQWTFWu1y/view?usp=sharing"><button className='btn btn-secondary'>Download Resume</button></a>
 
+
                         <ContactModal></ContactModal>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ const Navber = () => {
 
     return (
         <div>
-            <div className="navbar justify-between lg:px-28 mt-5">
+            <div className="navbar justify-between lg:px-28 mt-5 fixed z-50 backdrop">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
