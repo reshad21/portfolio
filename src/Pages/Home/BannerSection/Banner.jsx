@@ -10,7 +10,7 @@ const Banner = () => {
                 {/* <ParticleBackground /> */}
                 <div className="banner-items flex flex-col-reverse lg:flex-row  justify-between items-center">
 
-                    <div className="banner-left md:w-full flex flex-col items-center">
+                    <div className="banner-left md:w-full flex flex-col items-center lg:items-start">
                         <h1 className='text-2xl font-semibold text-slate-200'>Rashed Uzzaman Reshad</h1>
                         <p className='text-normal text-slate-100'>Frontend Web Developer</p>
                         <h1 className='text-xl font-semibold text-orange-500 text-center'>

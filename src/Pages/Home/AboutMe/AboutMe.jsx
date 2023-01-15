@@ -12,7 +12,7 @@ const AboutMe = () => {
             </div>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8 mb-14 items-center'>
                 <div className="">
-                    <h1 className='lg:text-4xl sm:text-3xl font-bold text-slate-200'>Why <span className='text-orange-500'>Hire Me</span> For Your Organization?</h1>
+                    <h1 className='lg:text-3xl sm:text-3xl font-bold text-slate-200'>Why <span className='text-orange-500'>Hire Me</span> For Your Organization?</h1>
                     <p className='lg:text-xl sm:text-xl my-5 font-medium text-slate-200'>I am a MERN Stack developer who learned and was certified by Programming Hero. I have done many full-stack projects with React and Node js. I am an expert in React JS, Express JS, Node JS, MongoDB, JWT, JavaScript, Tailwind CSS, Bootstrap, Html5, and CSS3.My work experience and skills make me a great match for your job</p>
                 </div>
                 <div className="">
