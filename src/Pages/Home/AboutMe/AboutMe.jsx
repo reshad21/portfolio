@@ -20,43 +20,43 @@ const AboutMe = () => {
                         <div className="text-base font-medium text-purple-700">
                             HTML
                         </div>
-                        <Progress progress={95} color="indigo" label="95%" labelPosition="inside" size="xl" />
+                        <Progress progress={95} color="indigo" label="95%" labelPosition="inside" size="lg" />
                     </div>
                     <div className="w-full mb-3">
                         <div className="text-base font-medium text-purple-700">
                             CSS
                         </div>
-                        <Progress progress={90} color="indigo" label="90%" labelPosition="inside" size="xl" />
+                        <Progress progress={90} color="indigo" label="90%" labelPosition="inside" size="lg" />
                     </div>
                     <div className="w-full mb-3">
                         <div className="text-base font-medium text-purple-700">
                             BOOTSTRAP
                         </div>
-                        <Progress progress={90} color="indigo" label="90%" labelPosition="inside" size="xl" />
+                        <Progress progress={90} color="indigo" label="90%" labelPosition="inside" size="lg" />
                     </div>
                     <div className="w-full mb-3">
                         <div className="text-base font-medium text-purple-700">
                             TAILWIND
                         </div>
-                        <Progress progress={85} color="indigo" label="85%" labelPosition="inside" size="xl" />
+                        <Progress progress={85} color="indigo" label="85%" labelPosition="inside" size="lg" />
                     </div>
                     <div className="w-full mb-3">
                         <div className="text-base font-medium text-purple-700">
                             JAVASCRIPT
                         </div>
-                        <Progress progress={80} color="indigo" label="80%" labelPosition="inside" size="xl" />
+                        <Progress progress={80} color="indigo" label="80%" labelPosition="inside" size="lg" />
                     </div>
                     <div className="w-full mb-3">
                         <div className="text-base font-medium text-purple-700">
                             REACT
                         </div>
-                        <Progress progress={75} color="indigo" label="75%" labelPosition="inside" size="xl" />
+                        <Progress progress={75} color="indigo" label="75%" labelPosition="inside" size="lg" />
                     </div>
                     <div className="w-full mb-3">
                         <div className="text-base font-medium text-purple-700">
                             NODE.JS
                         </div>
-                        <Progress progress={65} color="indigo" label="65%" labelPosition="inside" size="xl" />
+                        <Progress progress={65} color="indigo" label="65%" labelPosition="inside" size="lg" />
                     </div>
                 </div>
             </div>
