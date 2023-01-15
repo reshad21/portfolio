@@ -12,10 +12,6 @@ const Navber = () => {
             <a className="p-0 mr-3 justify-between bg-inherit" href='#about'>
                 <button className='btn btn-outline border-orange-500 font-bold text-orange-500'>About</button>
             </a>
-            {/* <ul className="p-2">
-                <li><Link>About</Link></li>
-                <li><Link>Submenu 2</Link></li>
-            </ul> */}
         </li>
         <li>
             <Link className='p-0 m-0 bg-inherit' to='/blog'>
@@ -24,24 +20,56 @@ const Navber = () => {
         </li>
     </>
 
+    const dropdownItems = <>
+        <div className="flex flex-col gap-1">
+            <li>
+                <Link className='p-0 bg-inherit' to='/'>
+                    <button className='btn btn-outline w-full border-orange-500 font-bold text-orange-500'>Home</button>
+                </Link>
+            </li>
+            <li tabIndex={0}>
+                <a className="p-0 justify-between bg-inherit" href='#about'>
+                    <button className='btn btn-outline w-full border-orange-500 font-bold text-orange-500'>About</button>
+                </a>
+            </li>
+            <li>
+                <Link className='p-0 bg-inherit' to='/blog'>
+                    <button className='btn btn-outline w-full border-orange-500 font-bold text-orange-500'>Blog</button>
+                </Link>
+            </li>
+            <li>
+                <Link className='p-0 bg-inherit' to='/blog'>
+                    <button className='btn btn-outline w-full border-orange-500 font-bold text-orange-500'>Contact me</button>
+                </Link>
+            </li>
+            <li>
+                <Link className='p-0 bg-inherit' to='/blog'>
+                    <button className='btn btn-outline w-full border-orange-500 font-bold text-orange-500'>Download Resume</button>
+                </Link>
+            </li>
+        </div>
+    </>
+
     return (
         <div>
-            <div className="navbar justify-between lg:px-28 mt-5 fixed z-50 backdrop">
-                <div className="navbar-start ">
-                    <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
-                        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 shadow bg-base-100 rounded-box w-52">
+            <div className='fixed top-0 z-30 w-full lg:px-[90px] md:px-[30px] backdrop-blur'>
+                <div className="navbar justify-between ">
+                    <div className="w-full flex justify-between">
+                        <Link className="btn btn-ghost normal-case text-2xl font-semibold text-slate-300">RESHAD</Link>
+                        <div className="dropdown">
+                            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            </label>
+                            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 right-0">
+                                {dropdownItems}
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="navbar-center hidden lg:flex">
+                        <ul className="menu menu-horizontal px-1">
                             {menuItems}
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case text-2xl font-semibold text-slate-300">RESHAD</Link>
-                </div>
-                <div className=" navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal p-0">
-                        {menuItems}
-                    </ul>
                 </div>
             </div>
         </div>
