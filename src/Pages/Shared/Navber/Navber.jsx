@@ -38,14 +38,9 @@ const Navber = () => {
                 </Link>
             </li>
             <li>
-                <Link className='p-0 bg-inherit' to='/blog'>
-                    <button className='btn btn-outline w-full border-orange-500 font-bold text-orange-500'>Contact me</button>
-                </Link>
-            </li>
-            <li>
-                <Link className='p-0 bg-inherit' to='/blog'>
+                <a className='p-0 bg-inherit' href="https://drive.google.com/file/d/14xxcfqPLbdsj15H1YB3IqtkUQWTFWu1y/view?usp=sharing">
                     <button className='btn btn-outline w-full border-orange-500 font-bold text-orange-500'>Download Resume</button>
-                </Link>
+                </a>
             </li>
         </div>
     </>

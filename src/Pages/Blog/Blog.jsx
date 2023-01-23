@@ -3,14 +3,8 @@ import React, { useState } from 'react';
 const Blog = () => {
     const [toggle, setToggle] = useState('Upcoming blog');
     const handleToggle = () => {
-        let value = toggle;
-        (value === 'Upcoming blog') ? setToggle('Upcoming blog') : setToggle('Coming Soon...!');
-        // if (value === 'Upcoming blog') {
-        //     setToggle('Coming Soon...!');
-        // } else {
-        //     setToggle('Upcoming blog');
-        // }
-        console.log(toggle);
+        (toggle === 'Upcoming blog') ? setToggle('Coming Soon...!') : setToggle('Upcoming blog');
+        // console.log(toggle);
     }
     return (
         <div className='flex flex-col justify-center items-center h-screen'>
