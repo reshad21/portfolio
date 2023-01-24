@@ -58,6 +58,12 @@ const AboutMe = () => {
                         </div>
                         <Progress progress={65} color="indigo" label="65%" labelPosition="inside" size="lg" />
                     </div>
+                    <div className="w-full mb-3">
+                        <div className="text-base font-medium text-purple-700">
+                            Express.js
+                        </div>
+                        <Progress progress={75} color="indigo" label="75%" labelPosition="inside" size="lg" />
+                    </div>
                 </div>
             </div>
         </div>
