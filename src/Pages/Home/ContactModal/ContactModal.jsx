@@ -9,7 +9,7 @@ const ContactModal = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_m5g58fb', 'template_pjuuara', form.current, 'S-DHlEBAemSGrxTXT')
+        emailjs.sendForm('service_m5g58fb', 'template_pjuuara', form.current, 'H1FDX9WkK7hJQntOL')
             .then((response) => {
                 console.log('SUCCESS!', response.status);
                 toast.success('Your Comment Successfully Send..!');
